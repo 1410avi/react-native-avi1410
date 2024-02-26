@@ -1,6 +1,6 @@
 {
   "name": "react-native-avi1410",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "sample test lib avi1410",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -97,20 +97,8 @@
     ]
   },
   "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
     "npm": {
       "publish": true
-    },
-    "github": {
-      "release": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
     }
   },
   "eslintConfig": {
